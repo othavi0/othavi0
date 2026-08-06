@@ -43,12 +43,6 @@
 <tr><td><code>04</code></td><td><b><a href="https://github.com/SikandarJODD/svelte-animations">svelte-animations</a></b></td><td>contributor</td><td>Svelte Magic UI and Aceternity components built with Tailwind and Framer Motion.</td></tr>
 </table>
 
-### /* languages */
-
-<p align="center">
-  <a href="https://github.com/othavi0"><img alt="Language breakdown across public repos" width="420" src="https://www.othavio.com/api/cards/langs" /></a>
-</p>
-
 <p align="center">
   <img alt="othavi0's contribution calendar in 3D" width="100%" src="./profile-3d-contrib/profile-one-dark.svg" />
 </p>
@@ -59,5 +53,4 @@ NOTES — pendências (não renderiza)
 2) skills (ex-noctua-skills): repo público, instalável via npx skills add othavi0/skills.
 3) O 3D (profile-one-dark.svg) é regenerado diariamente pela Action profile-3d.yml.
 4) Showcase usa raw.githubusercontent dos próprios repos (noctua main, agent-bar master) — trocar o path se o preview mudar de lugar.
-5) Card langs é self-hosted em othavio-site (app/api/cards/[card]).
 -->
