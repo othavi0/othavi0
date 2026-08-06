@@ -16,8 +16,22 @@
 ### /* open source */
 
 <table>
-<tr><td><code>01</code></td><td><b><a href="https://github.com/othavi0/agent-bar">agent-bar</a></b></td><td>author</td><td>Waybar integration and TUI to track Claude Code usage in real time.</td></tr>
-<tr><td><code>02</code></td><td><b><a href="https://github.com/othavi0/skills">skills</a></b></td><td>author</td><td>Skill library for Claude Code agents.</td></tr>
+<tr><td><code>01</code></td><td><b><a href="https://github.com/othavi0/agent-bar">agent-bar</a></b></td><td>author</td><td>Omarchy bar plugin for AI quota — Claude, Codex, Amp and Grok chips with reset countdowns.</td></tr>
+<tr><td><code>02</code></td><td><b><a href="https://github.com/othavi0/omarchy-noctua-theme">omarchy-noctua-theme</a></b></td><td>author</td><td>One Dark Pro syntax on a neutral #242424 base — themes for Omarchy/Hyprland.</td></tr>
+<tr><td><code>03</code></td><td><b><a href="https://github.com/othavi0/skills">skills</a></b></td><td>author</td><td>Curated Claude Code skills — CLAUDE.md pruning, dev-server orchestration, PT-BR humanizer.</td></tr>
+</table>
+
+### /* showcase */
+
+<table width="100%">
+<tr>
+<td width="50%"><a href="https://github.com/othavi0/omarchy-noctua-theme"><img alt="Noctua theme running on Hyprland: Waybar, editor and terminal" width="100%" src="https://raw.githubusercontent.com/othavi0/omarchy-noctua-theme/main/preview.png" /></a></td>
+<td width="50%"><a href="https://github.com/othavi0/agent-bar"><img alt="Agent Bar popup open over the Omarchy desktop" width="100%" src="https://raw.githubusercontent.com/othavi0/agent-bar/master/docs/media/demo.png" /></a></td>
+</tr>
+<tr>
+<td align="center"><sub><code>01</code> <a href="https://github.com/othavi0/omarchy-noctua-theme">omarchy-noctua-theme</a> — terminal, shell, editor and apps</sub></td>
+<td align="center"><sub><code>02</code> <a href="https://github.com/othavi0/agent-bar">agent-bar</a> — AI quota in the Omarchy bar</sub></td>
+</tr>
 </table>
 
 ### /* contributions */
@@ -29,6 +43,12 @@
 <tr><td><code>04</code></td><td><b><a href="https://github.com/SikandarJODD/svelte-animations">svelte-animations</a></b></td><td>contributor</td><td>Svelte Magic UI and Aceternity components built with Tailwind and Framer Motion.</td></tr>
 </table>
 
+### /* languages */
+
+<p align="center">
+  <a href="https://github.com/othavi0"><img alt="Language breakdown across public repos" width="420" src="https://www.othavio.com/api/cards/langs" /></a>
+</p>
+
 <p align="center">
   <img alt="othavi0's contribution calendar in 3D" width="100%" src="./profile-3d-contrib/profile-one-dark.svg" />
 </p>
@@ -38,4 +58,6 @@ NOTES — pendências (não renderiza)
 1) Hero vive em othavio-site (app/api/hero). Deploy do site publica em www.othavio.com/api/hero.
 2) skills (ex-noctua-skills): repo público, instalável via npx skills add othavi0/skills.
 3) O 3D (profile-one-dark.svg) é regenerado diariamente pela Action profile-3d.yml.
+4) Showcase usa raw.githubusercontent dos próprios repos (noctua main, agent-bar master) — trocar o path se o preview mudar de lugar.
+5) Card langs é self-hosted em othavio-site (app/api/cards/[card]).
 -->
