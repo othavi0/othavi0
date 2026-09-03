@@ -26,7 +26,7 @@
 <table width="100%">
 <tr>
 <td width="50%"><a href="https://github.com/othavi0/omarchy-noctua-theme"><img alt="Noctua theme running on Hyprland: Waybar, editor and terminal" width="100%" src="https://raw.githubusercontent.com/othavi0/omarchy-noctua-theme/main/preview.png" /></a></td>
-<td width="50%"><a href="https://github.com/othavi0/agent-bar"><img alt="Agent Bar popup open over the Omarchy desktop" width="100%" src="https://raw.githubusercontent.com/othavi0/agent-bar/master/docs/media/demo.png" /></a></td>
+<td width="50%"><a href="https://github.com/othavi0/agent-bar"><img alt="Agent Bar popup open over the Omarchy desktop" width="100%" src="https://raw.githubusercontent.com/othavi0/agent-bar/master/preview.png" /></a></td>
 </tr>
 <tr>
 <td align="center"><sub><code>01</code> <a href="https://github.com/othavi0/omarchy-noctua-theme">omarchy-noctua-theme</a> — terminal, shell, editor and apps</sub></td>
@@ -53,5 +53,6 @@ NOTES — pendências (não renderiza)
    Migrado de othavio-site em 2026-08-22: o domínio othavio.com saiu do ar e o <img> quebrou.
 2) skills (ex-noctua-skills): repo público, instalável via npx skills add othavi0/skills.
 3) O 3D (profile-one-dark.svg) é regenerado diariamente pela Action profile-3d.yml.
-4) Showcase usa raw.githubusercontent dos próprios repos (noctua main, agent-bar master) — trocar o path se o preview mudar de lugar.
+4) Showcase usa raw.githubusercontent dos próprios repos (noctua main/preview.png, agent-bar master/preview.png) — trocar o path se o preview mudar de lugar.
+   2026-09-03: agent-bar moveu docs/media/demo.png para preview.png na raiz; URL atualizada.
 -->
