@@ -1,27 +1,35 @@
-# othavi0 — profile README
+# othavi0, profile README
 
-Decisões de marca deste repo (fonte movida da memória global em 2026-07-29).
+Decisões de marca deste repo. Revisado em 2026-10-21.
 
-## Identidade e estilo (híbrido deliberado)
+## Identidade e estilo
 
-- Paleta **One Dark Pro** no README: `#21252b` bg, `#d7dae0` ink, `#abb2bf` body, `#5c6370` muted, `#e06c75` coral = **acento único**. Tipografia/voz do site othavio.com (Geist Mono, editorial, restraint, labels `/* ... */`). O site usa warm-black+vermillion — **não misturar as paletas**.
-- X = **@NoctuaCore**; LinkedIn = othavioquiliao. Identidade EN canônica: "Builds terminal-native tools for developers coordinating AI agents, from Waybar telemetry to Rust token-saving CLIs." Brand source-of-truth: `othavio-site/PRODUCT.md` + `DESIGN.md`.
+- Voz do README: Geist Mono, editorial, contido, títulos de seção em `/* ... */`. Fonte de voz e produto: `PRODUCT.md` e `DESIGN.md` no repo **othavio-site** (o domínio othavio.com saiu do ar, os docs continuam valendo).
+- Paleta **One Dark Pro** nas peças geradas (3D em `.github/3d-settings.json`, theme noctua). Não misturar com o warm-black e vermillion do antigo othavio.com.
+- Links canônicos: site **www.noctuacore.com**, X **@noctuacore** (`x.com/noctuacore`), LinkedIn **othavioquiliao**.
+- Identidade EN: "Builds terminal-native tools for developers coordinating AI agents." Vai no `alt` do hero.
 
-## Estrutura do README (final, revisada 2026-08-06)
+## Estrutura do README (revisada 2026-10-21)
 
-Hero SVG **voxel animado** full-width servido por `othavio-site/app/api/hero`: OTHAVIO em cubos extrudados verde One Dark (`#98c379`, decisão do user — verde convive com o coral do resto), fundo **transparente** (funciona no GitHub dark E light), sombra projetada, cubos soltos flutuando + sheen em **SMIL loop com frame 0 completo**. NUNCA animação one-shot a partir de `opacity:0` — GitHub renderiza SVG via `<img>` congelando CSS one-shot no frame 0 (bug que deixou o hero anterior invisível; regra completa na memória global `reference_github_readme_visuals`). Sem fonte embutida — geometria pura.
+Sequência: hero, linha de links, `/* open source */`, `/* showcase */`, `/* contributions */`, 3D.
 
-Sequência: hero → `/* open source */` (3 repos: agent-bar, omarchy-noctua-theme, skills) → `/* showcase */` (grid 2×1 de previews reais via raw.githubusercontent: noctua `main`, agent-bar `master` — trocar path se preview mudar de lugar) → `/* contributions */` → 3D contrib (seção `/* languages */` com o donut foi testada e REMOVIDA a pedido do user em 2026-08-06 — não reintroduzir) (action `yoshi389111/github-profile-3d-contrib`: tag com prefixo `v`, `SETTING_JSON` = caminho `.github/3d-settings.json`).
+- **Hero**: SVG voxel animado servido por `www.noctuacore.com/api/hero`, código em `apps/web/src/app/api/hero/route.ts` do repo **noctuacore**. OTHAVIO em cubos azul aço (`#5c7e9e`), fundo transparente (funciona no GitHub claro e escuro), sombra projetada, cubos soltos e sheen em **SMIL loop com frame 0 completo**. NUNCA animação one-shot a partir de `opacity:0`: o GitHub renderiza SVG via `<img>` e congela CSS one-shot no frame 0 (regra completa na memória global `reference_github_readme_visuals`). Sem fonte embutida, só geometria.
+- **Links**: noctuacore.com, x.com/noctuacore e linkedin, centralizados abaixo do hero.
+- **Open source** (4, numerados `01` a `04`): omarchy-agent-bar, omanotes, omarchy-noctua-theme, noctua-skills.
+- **Showcase**: grade de 3 colunas. noctua e agent-bar via raw.githubusercontent (noctua `main/preview.png`, agent-bar `master/preview.png`). omanotes usa `assets/omanotes.png` deste repo, print escolhido pelo user. Trocar o path se um preview mudar de lugar.
+- **Contributions** (4, cada linha com link para o PR): herdr #25, mission-control #102, omadoro (5 PRs), svelte-animations #9 e #34. Só PR com merge entra.
+- **3D**: action `yoshi389111/github-profile-3d-contrib` (tag com prefixo `v`, `SETTING_JSON` = `.github/3d-settings.json`). Regenera todo dia e faz commit na main, então branch de README faz rebase antes do push.
 
-## Anti-slop — removidos DE PROPÓSITO, não reintroduzir
+## Removidos de propósito, não reintroduzir
 
-about, stats, pinned, streak, snake, WakaTime, activity, banner gradiente, typing-svg, skill-icons marquee, footer capsule.
-
-## Cards self-hosted
-
-`app/api/cards/[card]/route.ts` no repo **othavio-site** (Next 16 edge, canônico www.othavio.com; GitHub GraphQL via `GH_README_TOKEN` na Vercel; só `langs` usado no README; exclui repos emach do donut — trabalho cliente). Gotcha Vercel: "Redeploy" de deploy antigo NÃO pega env var nova — deploy from source (push/commit vazio).
+- about, stats, pinned, streak, snake, WakaTime, activity, banner gradiente, typing-svg, skill-icons marquee, footer capsule.
+- `/* languages */` com o donut (removido 2026-08-06).
+- `/* lab */` com repos privados sem link (recusado 2026-10-21): só projeto público entra.
+- Contribuições workspace-lens e omatodolist (decisão do user em 2026-10-21) e rtk #1768 (fechou sem merge).
 
 ## Gotchas
 
-- Next App Router: pasta iniciada com `_` = private folder (fora do roteamento) — não usar pra "rota oculta".
-- Rendering de README (sem JS, camo, animação só SVG/GIF, next/og woff2→TTF): ver memória global `reference_github_readme_visuals`.
+- Next App Router: pasta iniciada com `_` é private folder (fora do roteamento). Não usar para "rota oculta".
+- Vercel: "Redeploy" de deploy antigo NÃO pega env var nova. Fazer deploy from source (push ou commit vazio).
+- Rendering de README (sem JS, camo, animação só SVG ou GIF, next/og woff2 para TTF): ver memória global `reference_github_readme_visuals`.
+- Para conferir o render sem publicar: `gh api /markdown` com `mode=gfm` e `context=othavi0/othavi0`.
