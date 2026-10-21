@@ -9,39 +9,47 @@
 
 <p align="center">
   <a href="https://www.noctuacore.com">
-    <img alt="othavi0 — builds terminal-native tools for developers coordinating AI agents" width="100%" src="https://www.noctuacore.com/api/hero" />
+    <img alt="othavi0 builds terminal-native tools for developers coordinating AI agents" width="100%" src="https://www.noctuacore.com/api/hero" />
   </a>
+</p>
+
+<p align="center">
+  <a href="https://www.noctuacore.com">noctuacore.com</a> ·
+  <a href="https://x.com/noctuacore">x.com/noctuacore</a> ·
+  <a href="https://www.linkedin.com/in/othavioquiliao">linkedin</a>
 </p>
 
 ### /* open source */
 
 <table>
-<tr><td><code>01</code></td><td><b><a href="https://github.com/othavi0/omarchy-agent-bar">omarchy-agent-bar</a></b></td><td>author</td><td>AI quota in your Omarchy bar — Claude, Codex, Amp and Grok chips with usage windows and reset countdowns.</td></tr>
-<tr><td><code>02</code></td><td><b><a href="https://github.com/othavi0/omarchy-noctua-theme">omarchy-noctua-theme</a></b></td><td>author</td><td>One Dark Pro syntax on a neutral #242424 base — themes for Omarchy/Hyprland.</td></tr>
-<tr><td><code>03</code></td><td><b><a href="https://github.com/othavi0/noctua-skills">noctua-skills</a></b></td><td>author</td><td>Four Claude Code skills — dev-up, mobile-up, claude-md-prune and humanize-pt-br. <code>npx skills@latest add othavi0/noctua-skills</code></td></tr>
+<tr><td><code>01</code></td><td><b><a href="https://github.com/othavi0/omarchy-agent-bar">omarchy-agent-bar</a></b></td><td>author</td><td>AI quota in your Omarchy bar. Claude, Codex, Amp, Grok and Antigravity chips with usage windows and reset countdowns.</td></tr>
+<tr><td><code>02</code></td><td><b><a href="https://github.com/othavi0/omanotes">omanotes</a></b></td><td>author</td><td>Notes, todos and alarms in one panel on the Omarchy bar, with a history tab. Stored in a local SQLite file.</td></tr>
+<tr><td><code>03</code></td><td><b><a href="https://github.com/othavi0/omarchy-noctua-theme">omarchy-noctua-theme</a></b></td><td>author</td><td>One Dark Pro syntax on a neutral #242424 base. Terminal, shell, editor and app themes for Omarchy.</td></tr>
+<tr><td><code>04</code></td><td><b><a href="https://github.com/othavi0/noctua-skills">noctua-skills</a></b></td><td>author</td><td>Four Claude Code skills: dev-up, mobile-up, claude-md-prune and humanize-pt-br. <code>npx skills@latest add othavi0/noctua-skills</code></td></tr>
 </table>
 
 ### /* showcase */
 
 <table width="100%">
 <tr>
-<td width="50%"><a href="https://github.com/othavi0/omarchy-noctua-theme"><img alt="Noctua theme running on Hyprland: Waybar, editor and terminal" width="100%" src="https://raw.githubusercontent.com/othavi0/omarchy-noctua-theme/main/preview.png" /></a></td>
-<td width="50%"><a href="https://github.com/othavi0/omarchy-agent-bar"><img alt="Agent Bar popup open over the Omarchy desktop" width="100%" src="https://raw.githubusercontent.com/othavi0/omarchy-agent-bar/master/preview.png" /></a></td>
+<td width="33%"><a href="https://github.com/othavi0/omarchy-noctua-theme"><img alt="Noctua theme running on Hyprland: Waybar, editor and terminal" width="100%" src="https://raw.githubusercontent.com/othavi0/omarchy-noctua-theme/main/preview.png" /></a></td>
+<td width="33%"><a href="https://github.com/othavi0/omarchy-agent-bar"><img alt="Agent Bar popup open over the Omarchy desktop" width="100%" src="https://raw.githubusercontent.com/othavi0/omarchy-agent-bar/master/preview.png" /></a></td>
+<td width="33%"><a href="https://github.com/othavi0/omanotes"><img alt="Omanotes panel with the item list, a note open in the editor and the Alarms and History tabs" width="100%" src="./assets/omanotes.png" /></a></td>
 </tr>
 <tr>
-<td align="center"><sub><code>01</code> <a href="https://github.com/othavi0/omarchy-noctua-theme">omarchy-noctua-theme</a> — terminal, shell, editor and apps</sub></td>
-<td align="center"><sub><code>02</code> <a href="https://github.com/othavi0/omarchy-agent-bar">omarchy-agent-bar</a> — AI quota in the Omarchy bar</sub></td>
+<td align="center"><sub><a href="https://github.com/othavi0/omarchy-noctua-theme">omarchy-noctua-theme</a></sub></td>
+<td align="center"><sub><a href="https://github.com/othavi0/omarchy-agent-bar">omarchy-agent-bar</a></sub></td>
+<td align="center"><sub><a href="https://github.com/othavi0/omanotes">omanotes</a></sub></td>
 </tr>
 </table>
 
 ### /* contributions */
 
 <table>
-<tr><td><code>01</code></td><td><b><a href="https://github.com/herdrdev/herdr">herdr</a></b></td><td>contributor</td><td>The runtime your coding agents live on — terminal workspace manager for AI agents.</td></tr>
-<tr><td><code>02</code></td><td><b><a href="https://github.com/rtk-ai/rtk">rtk</a></b></td><td>open PR</td><td>Single-binary Rust CLI proxy that cuts 60 to 90 percent of LLM tokens on common dev commands.</td></tr>
-<tr><td><code>03</code></td><td><b><a href="https://github.com/builderz-labs/mission-control">mission-control</a></b></td><td>contributor</td><td>Self-hosted control plane for AI agents — dispatch tasks, review runs, track spend.</td></tr>
-<tr><td><code>04</code></td><td><b><a href="https://github.com/JacobsenNando/workspace-lens">workspace-lens</a></b></td><td>contributor</td><td>Omarchy Shell widget that shows each Hyprland workspace's apps right on the bar.</td></tr>
-<tr><td><code>05</code></td><td><b><a href="https://github.com/SikandarJODD/svelte-animations">svelte-animations</a></b></td><td>contributor</td><td>Svelte Magic UI and Aceternity components built with Tailwind and Framer Motion.</td></tr>
+<tr><td><code>01</code></td><td><b><a href="https://github.com/herdrdev/herdr">herdr</a></b></td><td><a href="https://github.com/herdrdev/herdr/pull/25">#25</a></td><td>The runtime your coding agents live on. Terminal workspace manager for AI agents, 45k stars.</td></tr>
+<tr><td><code>02</code></td><td><b><a href="https://github.com/builderz-labs/mission-control">mission-control</a></b></td><td><a href="https://github.com/builderz-labs/mission-control/pull/102">#102</a></td><td>Self-hosted control plane for AI agents. Dispatch tasks, review runs, track spend.</td></tr>
+<tr><td><code>03</code></td><td><b><a href="https://github.com/larissa04alves/omadoro">omadoro</a></b></td><td><a href="https://github.com/larissa04alves/omadoro/pulls?q=is%3Apr+author%3Aothavi0">5 PRs</a></td><td>Pomodoro timer plugin for omarchy-shell. Ported it to the plugin API and wrote the docs.</td></tr>
+<tr><td><code>04</code></td><td><b><a href="https://github.com/SikandarJODD/svelte-animations">svelte-animations</a></b></td><td><a href="https://github.com/SikandarJODD/svelte-animations/pull/9">#9</a> <a href="https://github.com/SikandarJODD/svelte-animations/pull/34">#34</a></td><td>Svelte Magic UI and Aceternity components built with Tailwind.</td></tr>
 </table>
 
 <p align="center">
@@ -55,6 +63,8 @@ NOTES — pendências (não renderiza)
 2) noctua-skills: repo público com 4 skills (dev-up, mobile-up, claude-md-prune, humanize-pt-br), instalável via npx skills@latest add othavi0/noctua-skills.
 3) O 3D (profile-one-dark.svg) é regenerado diariamente pela Action profile-3d.yml.
 4) Showcase usa raw.githubusercontent dos próprios repos (omarchy-noctua-theme main/preview.png, omarchy-agent-bar master/preview.png) — trocar o path se o preview mudar de lugar.
+   O print do omanotes fica neste repo (assets/omanotes.png), escolhido pelo user em 2026-10-21 no lugar do preview.png do repo omanotes.
 5) Nomes canônicos em 2026-09-03: agent-bar virou omarchy-agent-bar, skills virou noctua-skills, herdr mudou de ogulcancelik para herdrdev. Os links antigos redirecionam, mas o README usa os atuais.
-6) Contribuições: herdr #25 (merged), mission-control #102 (merged), workspace-lens #2 (merged), svelte-animations #9 e #34 (merged), rtk #1768 (aberto).
+6) Contribuições: herdr #25, mission-control #102, omadoro (5 PRs), svelte-animations #9 e #34, todos com merge.
+   Fora por decisão do user em 2026-10-21: workspace-lens #2 e omatodolist #2 e #4. rtk #1768 saiu porque fechou sem merge.
 -->
