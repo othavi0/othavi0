@@ -13,7 +13,7 @@ Decisões de marca deste repo. Revisado em 2026-10-21.
 
 Sequência: hero, linha de links, `/* open source */`, `/* showcase */`, `/* contributions */`, 3D.
 
-- **Hero**: SVG voxel animado servido por `www.noctuacore.com/api/hero`, código em `apps/web/src/app/api/hero/route.ts` do repo **noctuacore**. OTHAVIO em cubos azul aço (`#5c7e9e`), fundo transparente (funciona no GitHub claro e escuro), sombra projetada, cubos soltos e sheen em **SMIL loop com frame 0 completo**. NUNCA animação one-shot a partir de `opacity:0`: o GitHub renderiza SVG via `<img>` e congela CSS one-shot no frame 0 (regra completa na memória global `reference_github_readme_visuals`). Sem fonte embutida, só geometria.
+- **Hero**: SVG voxel animado servido por `www.noctuacore.com/api/hero`, código em `apps/web/src/app/api/hero/route.ts` do repo **noctuacore**. OTHAVIO em cubos azul aço (`#5c7e9e`), fundo transparente (funciona no GitHub claro e escuro), sombra projetada, cubos soltos e sheen em **SMIL loop com frame 0 completo**. NUNCA animação one-shot a partir de `opacity:0`: o GitHub renderiza SVG via `<img>` e congela CSS one-shot no frame 0. Sem fonte embutida, só geometria.
 - **Links**: noctuacore.com, x.com/noctuacore e linkedin, centralizados abaixo do hero.
 - **Open source** (4, numerados `01` a `04`): omarchy-agent-bar, omanotes, omarchy-noctua-theme, noctua-skills.
 - **Showcase**: grade de 3 colunas. noctua e agent-bar via raw.githubusercontent (noctua `main/preview.png`, agent-bar `master/preview.png`). omanotes usa `assets/omanotes.png` deste repo, print escolhido pelo user. Trocar o path se um preview mudar de lugar.
@@ -31,5 +31,5 @@ Sequência: hero, linha de links, `/* open source */`, `/* showcase */`, `/* con
 
 - Next App Router: pasta iniciada com `_` é private folder (fora do roteamento). Não usar para "rota oculta".
 - Vercel: "Redeploy" de deploy antigo NÃO pega env var nova. Fazer deploy from source (push ou commit vazio).
-- Rendering de README (sem JS, camo, animação só SVG ou GIF, next/og woff2 para TTF): ver memória global `reference_github_readme_visuals`.
+- Rendering de README: o GitHub não roda JS e serve toda imagem pelo proxy camo; animação só em SVG (SMIL) ou GIF. No `next/og`, fonte em TTF, não woff2.
 - Para conferir o render sem publicar: `gh api /markdown` com `mode=gfm` e `context=othavi0/othavi0`.
