@@ -1,6 +1,6 @@
 # othavi0, profile README
 
-Decisões de marca deste repo. Revisado em 2026-10-21.
+Decisões de marca deste repo. Revisado em 2026-11-18.
 
 ## Identidade e estilo
 
@@ -13,7 +13,7 @@ Decisões de marca deste repo. Revisado em 2026-10-21.
 
 Sequência: hero, linha de links, `/* open source */`, `/* showcase */`, `/* contributions */`, 3D.
 
-- **Hero**: SVG voxel animado servido por `www.noctuacore.com/api/hero`, código em `apps/web/src/app/api/hero/route.ts` do repo **noctuacore**. OTHAVIO em cubos azul aço (`#5c7e9e`), fundo transparente (funciona no GitHub claro e escuro), sombra projetada, cubos soltos e sheen em **SMIL loop com frame 0 completo**. NUNCA animação one-shot a partir de `opacity:0`: o GitHub renderiza SVG via `<img>` e congela CSS one-shot no frame 0 (regra completa na memória global `reference_github_readme_visuals`). Sem fonte embutida, só geometria.
+- **Hero**: SVG voxel animado no arquivo `assets/hero.svg` deste repo. Foi gerado em 2026-11-18 pelo `route.ts` antigo do repo **noctuacore**, porque a rota `/api/hero` saiu do ar na limpeza do site. O código se recupera com `git show f1e022a^:apps/web/src/app/api/hero/route.ts` no repo noctuacore. OTHAVIO em cubos azul aço (`#5c7e9e`), fundo transparente (funciona no GitHub claro e escuro), sombra projetada, cubos soltos e sheen em **SMIL loop com frame 0 completo**. NUNCA animação one-shot a partir de `opacity:0`: o GitHub renderiza SVG via `<img>` e congela CSS one-shot no frame 0 (regra completa na memória global `reference_github_readme_visuals`). Sem fonte embutida, só geometria.
 - **Links**: noctuacore.com, x.com/noctuacore e linkedin, centralizados abaixo do hero.
 - **Open source** (4, numerados `01` a `04`): omarchy-agent-bar, omanotes, omarchy-noctua-theme, noctua-skills.
 - **Showcase**: grade de 3 colunas. noctua e agent-bar via raw.githubusercontent (noctua `main/preview.png`, agent-bar `master/preview.png`). omanotes usa `assets/omanotes.png` deste repo, print escolhido pelo user. Trocar o path se um preview mudar de lugar.
@@ -30,6 +30,6 @@ Sequência: hero, linha de links, `/* open source */`, `/* showcase */`, `/* con
 ## Gotchas
 
 - Next App Router: pasta iniciada com `_` é private folder (fora do roteamento). Não usar para "rota oculta".
-- Vercel: "Redeploy" de deploy antigo NÃO pega env var nova. Fazer deploy from source (push ou commit vazio).
+- O noctuacore roda no Railway. O `proxy.ts` dele reescreve qualquer caminho sem ponto para `/en`, inclusive `/api`.
 - Rendering de README (sem JS, camo, animação só SVG ou GIF, next/og woff2 para TTF): ver memória global `reference_github_readme_visuals`.
 - Para conferir o render sem publicar: `gh api /markdown` com `mode=gfm` e `context=othavi0/othavi0`.
